@@ -1,0 +1,32 @@
+/* V3: single-column narrative, focused actions, and chronological reveals. */
+.workspace{max-width:1080px;margin:0 auto;width:100%}
+.narrative{max-width:900px;margin:0 auto}
+.narrative-header{display:flex;justify-content:space-between;align-items:center;gap:14px;margin:8px 0 22px}
+.story-progress{color:#0e8067;background:#e5f6ef;border:1px solid #c6e6db;font-size:12px;letter-spacing:.07em;font-weight:800;border-radius:7px;padding:7px 12px}
+.narrative h1{font-size:clamp(32px,4vw,48px);line-height:1.13;letter-spacing:-.045em;margin:0 0 14px;color:#172d3d}
+.narrative-lead{font-size:18px;color:#52727e;line-height:1.65;margin:0 0 25px}
+.story-card{background:#fff;border:1px solid #dce6eb;border-radius:17px;padding:clamp(22px,4vw,38px);box-shadow:0 12px 32px #0e2e4510;margin:0 0 17px}
+.story-card>p{font-size:17px;color:#3d5c69;line-height:1.85}
+.story-card .eyebrow{display:inline-block;margin-bottom:10px}
+.scenario-question{border-left:4px solid #08a77d;padding:14px 18px;background:#edf8f3;font-weight:700;color:#175d4b!important;border-radius:0 8px 8px 0}
+.previous{border:1px solid #d0e4de;background:#f3faf7;padding:16px 18px;border-radius:9px;margin-top:20px}
+.previous strong{color:#136d56}.previous p{font-size:14px!important;margin:5px 0 0!important}
+.key-facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:28px 0}
+.key-facts>div{border:1px solid #d7ebe2;border-radius:12px;padding:18px;background:#eff9f5;display:flex;flex-direction:column}
+.key-facts strong{font-size:29px;letter-spacing:-.04em;color:#087d60}.key-facts small{font-size:13px;color:#66877c}
+.primary-area{display:flex;justify-content:flex-end;padding:10px 0 30px}
+.narrative-primary{min-width:230px;min-height:52px;font-size:15px}
+.narrative-evidence .evidence{padding:19px 0}.narrative-evidence .evidence h3{font-size:18px}.narrative-evidence .evidence p{font-size:16px;line-height:1.7}
+.narrative-evidence .evidence-index{width:34px;height:34px;background:#e4f7ef;border-radius:8px;display:grid;place-items:center;flex-shrink:0}
+.narrative .options{margin:16px 0 28px}.narrative .option{font-size:16px;padding:17px}
+.narrative textarea,.narrative select{font-size:16px}.narrative .label{font-size:15px}
+.selected-decision{font-size:20px;font-weight:850;color:#0a8b6a;background:#eff9f4;padding:16px;border-radius:9px}
+.challenge{border:1px solid #d7e6ec;background:#f1f7fa;padding:20px;border-radius:12px;margin:22px 0}
+.challenge strong{color:#183b51}.challenge p{line-height:1.75;margin:9px 0 0}
+.zoom-box{border-top:1px solid #deeaee;padding-top:22px;margin-top:25px}.zoom-box p{font-size:16px;line-height:1.7}
+.zoom-message{background:#112d42;color:#e4f7fb;padding:17px;border-radius:10px;line-height:1.6;overflow-wrap:anywhere;margin:14px 0}
+.zoom-box .micro{display:inline-block;margin-left:12px}
+.narrative .timeline-item{padding:16px 0}.narrative .timeline-item p{margin:3px 0}
+.narrative table{min-width:690px}.narrative table textarea{min-width:150px;font-size:14px}
+.narrative .story-card + .story-card{margin-top:22px}
+@media(max-width:760px){.narrative-header{margin-top:0}.narrative-lead{font-size:16px}.story-card>p{font-size:16px}.key-facts{gap:7px}.key-facts>div{padding:11px}.key-facts strong{font-size:23px}.primary-area{justify-content:stretch}.narrative-primary{width:100%}.zoom-box .micro{display:block;margin:8px 0 0}}

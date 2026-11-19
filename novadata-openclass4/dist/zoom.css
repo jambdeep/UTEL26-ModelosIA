@@ -1,0 +1,7 @@
+.zoom-panel{border-top:4px solid #378bc3;background:linear-gradient(150deg,#fff,#f0f8ff)}
+.zoom-panel h2{font-size:20px}
+.zoom-code{background:#132d42;border-radius:9px;color:#eefbff;padding:15px;overflow-wrap:anywhere}
+.zoom-code span{display:block;color:#9fc7d5;font-size:12px;margin-bottom:6px}
+.zoom-code strong{font-size:14px;line-height:1.5}
+.zoom-panel .btn{font-size:13px}
+.zoom-panel textarea{background:#fff}
